@@ -1,0 +1,30 @@
+PUT http://k50.ru.local/api/goods/1
+Content-Type: application/json
+
+{
+  "name": "new good {{$randomInt}}",
+  "description": "This file provides stubs for dynamic variables used in HTTP Client",
+  "photos": [
+  "https://lorempixel.com/640/480/cats/?24146",
+  "https://lorempixel.com/640/480/cats/?24147",
+  "https://lorempixel.com/640/480/cats/?24148"
+  ],
+  "price": {{$randomInt}}
+}
+
+###
+
+PUT http://k50.ru.local/api/goods/10
+Content-Type: application/json
+
+{
+  "description": "This file provides stubs for dynamic variables used in HTTP Client",
+  "photos": [
+  "https://lorempixel.com/640/480/cats/?24146",
+  "https://lorempixel.com/11/11/cats/?24147",
+  "https://lorempixel.com/640/480/cats/?24148"
+  ],
+  "price": {{$randomInt}}
+}
+
+###

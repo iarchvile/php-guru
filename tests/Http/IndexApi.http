@@ -1,0 +1,79 @@
+GET http://k50.ru.local/api/goods
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=name
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=name,
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=name,asc
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=name,desc
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=price,desc
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=price,asc
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=pric,asc
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=pric,as
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=price,as
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=price,asss
+Accept: application/json
+###
+
+GET http://k50.ru.local/api/goods?order=namez,asss
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?order=namezz
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=id
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=description
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=id,description
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=description,id
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=photos
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=di,id
+Accept: application/json
+###
+
+http://k50.ru.local/api/goods?fields=,di,id,depricesc,description,phtos
+Accept: application/json
+###
