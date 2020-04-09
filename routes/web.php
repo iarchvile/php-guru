@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $post = new App\Pattern\Post();
+
+    $post->title = 'This is a title';
+
+    $post->foo = 'bar';
+
+    $post->zzz = 'bare';
+
+    unset($post->zzz);
+
+    \View::share([
+        'post' => $post,
+    ]);
+
     return view('welcome');
 });
