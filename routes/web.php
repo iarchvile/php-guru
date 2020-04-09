@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $messenger = new \App\Pattern\AppMessenger();
+
+    View::share([
+        'messenger' => $messenger,
+    ]);
+
     return view('welcome');
 });
